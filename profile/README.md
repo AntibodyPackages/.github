@@ -29,7 +29,7 @@ Pkg.Registry.add()
 Pkg.Registry.add(RegistrySpec(url = "https://github.com/AntibodyPackages/AntibodyPackagesRegistry"))
 ```
 
-Then, the packages can be installed as usual. E.g. [`AdaptiveDensityApproximationRecipes.jl`](https://github.com/AntibodyPackages/AdaptiveDensityApproximationRecipes.jl), which installs all necessary dependencies for the analysis of dose-response curves:
+Then, the packages can be installed as usual. E.g. [`AntibodyMethodsDoseResponseConvenience.jl`](https://github.com/AntibodyPackages/AntibodyMethodsDoseResponseConvenience.jl), which installs all necessary dependencies for the analysis of dose-response curves:
 
 ```julia
 using Pkg
@@ -43,8 +43,8 @@ Pkg.add("AntibodyMethodsDoseResponseConvenience")
 | [`FittingObjectiveFunctions.jl`](https://github.com/AntibodyPackages/FittingObjectiveFunctions.jl) | Dependency-free package to construct fitting objective functions from (measurement) data. |
 | [`AdaptiveDensityApproximation.jl`](https://github.com/AntibodyPackages/AdaptiveDensityApproximation.jl) | Approximate density functions with discrete grids that can be refined adaptively. Contains additional calculation methods for grids (e.g. numerical integration). |
 | [`AdaptiveDensityApproximationRecipes.jl`](https://github.com/AntibodyPackages/AdaptiveDensityApproximationRecipes.jl) | [`Plots.jl`](https://docs.juliaplots.org/stable/) recipes for the visualization of grids. |
-| [`AntibodyMethodsDoseResponseConvenience.jl`](https://github.com/AntibodyPackages/AntibodyMethodsDoseResponseConvenience.jl) | Convenience package for the analysis of dose-response curves. Contains predefined analysis and plotting methods. |
-| [`AntibodyMethodsDoseResponse.jl`](https://github.com/AntibodyPackages/AntibodyMethodsDoseResponse.jl) | Minimal package for the analysis of dose-response curves. Intended for the development of analysis methods from scratch. Requires fewer dependencies. |
+| [`AntibodyMethodsDoseResponseConvenience.jl`](https://github.com/AntibodyPackages/AntibodyMethodsDoseResponseConvenience.jl) | Convenience package for the analysis of dose-response curves. Contains predefined analysis and plotting methods. Recommended for the analysis of dose-response data. |
+| [`AntibodyMethodsDoseResponse.jl`](https://github.com/AntibodyPackages/AntibodyMethodsDoseResponse.jl) | Minimal package defining the underlying models and methods for the analysis of dose-response curves. Intended for the development of analysis methods from scratch. Requires fewer dependencies. |
 | [`AntibodyMethodsDoseResponseRecipes.jl`](https://github.com/AntibodyPackages/AntibodyMethodsDoseResponseRecipes.jl) |  [`Plots.jl`](https://docs.juliaplots.org/stable/) recipes for `AntibodyMethodsDoseResponse` objects. |
 
 
