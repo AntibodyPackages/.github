@@ -7,15 +7,20 @@
 
 
 
+
+
 ## About
 
-**AntibodyPackages** contains [Julia](https://julialang.org/) packages for the analysis of (antibody) dose-response curves: 
+**AntibodyPackages** contains forks of [Julia](https://julialang.org/) packages that are currently maintained by [Translational Pain Research](https://github.com/Translational-Pain-Research). The packages contain methods for the analysis of (antibody) dose-response curves: 
 
 ![](example.svg)
 
 For applications, see the corresponding paper ([https://arxiv.org/abs/2407.06052](https://arxiv.org/abs/2407.06052)). In addition, the packages [`FittingObjectiveFunctions.jl`](https://github.com/AntibodyPackages/FittingObjectiveFunctions.jl) and [`AdaptiveDensityApproximation.jl`](https://github.com/AntibodyPackages/AdaptiveDensityApproximation.jl) may be of interest for general scientific projects.
 
-The packages were originally developed and are currently maintained by [Dominik Tschimmel](https://dominiktschimmel.github.io/) ([GitHub](https://github.com/DominikTschimmel)).
+
+The packages were originally developed by [Dominik Tschimmel](https://dominiktschimmel.github.io/) ([GitHub](https://github.com/DominikTschimmel)) on this page. For legacy compatibility of links and the registry, this page contains forks of the packages. The development of the packages on this page may diverge from [Translational Pain Research](https://github.com/Translational-Pain-Research) in the future.
+
+ 
 
 
 ## Installation
